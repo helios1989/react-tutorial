@@ -1,5 +1,10 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  IndexRoute
+} from "react-router-dom";
 import Header from "./Header/header";
 import Home from "./Home/home";
 import ContactUs from "./ContactUs/contactUs";
