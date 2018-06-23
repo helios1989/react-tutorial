@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import HeaderContainer from "./header_container";
+import Header from "./Header/header";
 class Layout extends Component {
   constructor() {
     super();
@@ -9,7 +9,9 @@ class Layout extends Component {
   //   return prefix + " Vergel Barit";
   // }
   render() {
-    return <HeaderContainer />;
+    // let header = [<HeaderContainer />];
+
+    return <Header />;
   }
 }
 export default Layout;
