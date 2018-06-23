@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class headerComponent extends Component {
   constructor() {
     super();
-    this.name = "Vergel Barit";
+    this.name = "MR Vergel Barit";
   }
   // getName(prefix) {
   //   return prefix + " Vergel Barit";
